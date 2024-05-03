@@ -1,0 +1,13 @@
+@import './reset.css';
+@import './variables.css';
+@import './blocks.css';
+
+html {
+    font-size: 12px;
+}
+
+body {
+    background-color: var(--bg-clr);
+    color: var(--text-clr);
+    font-family: sans-serif;
+}
