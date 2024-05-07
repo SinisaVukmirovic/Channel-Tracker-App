@@ -3,8 +3,12 @@
 @import './blocks.css';
 
 @font-face {
-    font-family: 'TW';
+    font-family: 'TW-Regular';
     src: url('../font/TW/TW-Regular.ttf');
+}
+@font-face {
+    font-family: 'TW-SemiBold';
+    src: url('../font/TW/TW-SemiBold.ttf');
 }
 
 html {
@@ -14,7 +18,7 @@ html {
 body {
     background-color: var(--bg-clr);
     color: var(--text-clr);    
-    font-family: "TW", sans-serif;
+    font-family: "TW-Regular", sans-serif;
     /* font-weight: 400; */
     /* font-style: normal; */
 }
