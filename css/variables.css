@@ -2,5 +2,6 @@
     --theme-clr: crimson;
     --bg-clr: hsl(0, 0%, 13%);
     --text-clr: hsl(0, 0%, 93%);
+    --light-text-clr: hsl(0, 0%, 70%);
     --channel-card-bg: hsl(0, 0%, 20%);
 }
