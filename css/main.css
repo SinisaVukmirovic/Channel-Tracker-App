@@ -1,6 +1,7 @@
 @import './reset.css';
 @import './variables.css';
 @import './blocks.css';
+@import './media-queries.css';
 
 @font-face {
     font-family: 'TW-Regular';
@@ -23,7 +24,7 @@ body {
     /* font-style: normal; */
 }
 
-svg {
+/* svg {
     width: 2rem;
     height: auto;
-}
+} */
