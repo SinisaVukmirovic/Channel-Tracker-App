@@ -1,7 +1,8 @@
 @media (width >= 1024px) {
     body {
         display: grid;
-        grid-template-columns: 20rem 1fr;
+        grid-template-columns: 15rem 1fr;
+        gap: 2rem;
     }
 
     header {
@@ -70,6 +71,29 @@
             background-color: var(--channel-card-bg);
             padding: 0 .5rem;
             border-radius: .25rem;
+        }
+    }
+
+    /* main {
+        padding-left: 3rem;
+    } */
+    .title-search {
+        margin-bottom: 3rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        & .title {
+            margin-block: unset;
+            flex-grow: 1;
+            display: flex;
+            justify-content: flex-start;
+
+        }
+
+        & .search {
+            order: 2;
+            flex-grow: 1;
         }
     }
 }
