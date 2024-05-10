@@ -81,9 +81,9 @@
             /* flex-direction: column;
             align-items: flex-end; */
             gap: .25rem;
+            
     
             & li {
-                width: 100%;
                 font-size: 1.5rem;
                 text-align: right;
                 padding: .5rem 2rem;
@@ -91,11 +91,9 @@
             }
         }
     
-        /* & .active {
-            background-color: var(--channel-card-bg);
-            padding: 0 .5rem;
-            border-radius: .25rem;
-        } */
+        & li[aria-current] {
+            background-color: purple;
+        }
     }
 
     /* main {
