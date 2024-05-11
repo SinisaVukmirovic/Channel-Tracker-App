@@ -112,6 +112,8 @@ main {
             & .tags {
                 display: flex;
                 gap: 1rem;
+                text-transform: uppercase;
+                font-size: .8rem;
             }
     
             & span {

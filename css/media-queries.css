@@ -7,17 +7,8 @@
 
     header {
         all: unset;
-
-        /* position: sticky;
-        top: 0; */
         background-color: var(--theme-clr);
         padding-left: 10%;
-        /* padding: 1rem 1rem .5rem; */
-        /* position: fixed;
-        top: 0;
-        left: 0;
-        height: 100svh; */
-        /* width: 20rem; */
 
         & .sticky {
             position: sticky;
@@ -37,6 +28,7 @@
             border: 2px solid var(--text-clr);
             border-radius: 1rem;
             text-align: center;
+            /* background-color: var(--bg-clr); */
     
             & h1 {
                 font-size: 2.25rem;
@@ -65,16 +57,9 @@
     }
 
     nav {
-        /* all: unset; */
-
-        /* overflow: scroll; */
-        /* display: flex; */
-        /* justify-content: flex-end; */
-
-        /* margin-top: 1rem; */
-        overflow: hidden;
-        /* width: 90%; */
-
+        /* overflow: hidden; */
+        /* hidden brakes the pseudo elems effect */
+        overflow: visible;
     
         & .nav-links {
             display: grid;
@@ -89,10 +74,30 @@
                 padding: .5rem 2rem;
                 cursor: pointer;
             }
-        }
+
+            & li[aria-current] {
+                position: relative;
+            }
+        
+            & li[aria-current]::before,
+            & li[aria-current]::after {
+                --border-radius: 2rem;
     
-        & li[aria-current] {
-            background-color: purple;
+                content: '';
+                position: absolute;
+                width: var(--border-radius);
+                height: var(--border-radius);
+                border-radius: 100%;
+                background-color: yellow;
+                right: 0;
+            }
+    
+            & li[aria-current]::before {
+                top: calc(var(--border-radius) * -1);
+            }
+            & li[aria-current]::after {
+                bottom: calc(var(--border-radius) * -1);
+            }
         }
     }
 
