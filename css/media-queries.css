@@ -71,8 +71,9 @@
             & li {
                 font-size: 1.5rem;
                 text-align: right;
-                padding: .5rem 2rem;
+                padding: .5rem 3rem .5rem 1rem;
                 cursor: pointer;
+                border-radius: 1rem;
             }
 
             & li[aria-current] {
@@ -81,22 +82,26 @@
         
             & li[aria-current]::before,
             & li[aria-current]::after {
-                --border-radius: 2rem;
+                --corner-radius: 1.5rem;
     
                 content: '';
                 position: absolute;
-                width: var(--border-radius);
-                height: var(--border-radius);
+                width: var(--corner-radius);
+                height: var(--corner-radius);
                 border-radius: 100%;
-                background-color: yellow;
+                background-color: var(--theme-clr);
                 right: 0;
             }
     
             & li[aria-current]::before {
-                top: calc(var(--border-radius) * -1);
+                top: calc(var(--corner-radius) * -1);
+                border-radius: 0 0 10rem 0;
+                box-shadow: 10px 10px 0 5px var(--bg-clr);
             }
             & li[aria-current]::after {
-                bottom: calc(var(--border-radius) * -1);
+                bottom: calc(var(--corner-radius) * -1);
+                border-radius: 0 10rem 0 0;
+                box-shadow: 10px -10px 0 5px var(--bg-clr);
             }
         }
     }
