@@ -57,21 +57,17 @@
     }
 
     nav {
-        /* overflow: hidden; */
-        /* hidden brakes the pseudo elems effect */
         overflow: visible;
+        width: 100%;
     
         & .nav-links {
             display: grid;
-            /* flex-direction: column;
-            align-items: flex-end; */
             gap: .25rem;
             
-    
             & li {
                 font-size: 1.5rem;
                 text-align: right;
-                padding: .5rem 3rem .5rem 1rem;
+                padding: .5rem 3rem .5rem 0;
                 cursor: pointer;
                 border-radius: 1rem;
             }
