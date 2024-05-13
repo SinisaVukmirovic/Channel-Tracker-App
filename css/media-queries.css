@@ -67,7 +67,7 @@
             & li {
                 font-size: 1.5rem;
                 text-align: right;
-                padding: .5rem 3rem .5rem 0;
+                padding: .5rem 2.5rem .5rem 0;
                 cursor: pointer;
                 border-radius: 1rem;
             }
@@ -106,22 +106,25 @@
         padding-left: 3rem;
     } */
     .title-search {
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        /* align-items: center; */
+        display: flex;
 
         & .title {
+            flex: 1;
             margin-block: unset;
             flex-grow: 1;
             display: flex;
             justify-content: flex-start;
-
+            font-size: 2.5rem;
         }
 
         & .search {
+            flex: 1;
             order: 2;
-            flex-grow: 1;
+            /* flex-grow: 1; */
         }
     }
 }
