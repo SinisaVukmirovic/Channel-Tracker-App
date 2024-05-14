@@ -1,2 +1,4 @@
-import { topicsElem, channelsWrapper } from './DOMelems.js';
-import './createTopicsElem.js';
+// import { channelsWrapper } from './DOMelems.js';
+import createTopicsList from './createTopicsList.js';
+
+createTopicsList();
