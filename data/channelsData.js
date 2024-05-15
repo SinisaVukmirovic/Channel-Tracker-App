@@ -11,6 +11,17 @@ const channelsData = [
         link: 'https://www.youtube.com/@NetNinja/videos'
     },
     {
+        topics: ['all', 'design', 'coding'],
+        image: 'https://yt3.googleusercontent.com/ytc/AIdro_kJqI0Cug625PL9yB10dRj3DxVfVWDaSbCX3U3hoXp3BwI=s160-c-k-c0x00ffffff-no-rj',
+        name: 'DesignCourse',
+        info: "Hi, I'm Gary. I've created close to 100 courses from graphic design to advanced frontend development. I teach full stack development, tutorials regarding UI/UX,  Graphic Design, Frontend Dev and more!",
+        details: {
+            subs: '1.1M subs',
+            vids: '1,271 vids'
+        },
+        link: 'https://www.youtube.com/@DesignCourse/videos'
+    },
+    {
         topics: ['all', 'coding'],
         image: 'https://yt3.googleusercontent.com/ytc/AIdro_mLysKc36lc_FVk2j777olWvLOjgDz6NCNGdiQBnAKRENM=s160-c-k-c0x00ffffff-no-rj',
         name: 'Traversy Media',
@@ -20,9 +31,6 @@ const channelsData = [
             vids: '976 vids'
         },
         link: 'https://www.youtube.com/@TraversyMedia/videos'
-    },
-    {
-        topics: ['all', 'entertainment']
     }
 ];
 
