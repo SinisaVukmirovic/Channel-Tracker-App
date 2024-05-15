@@ -1,10 +1,10 @@
-import { channels } from '../data/channelsData.js';
+import { channelsData } from '../data/channelsData.js';
 import { topicsElem } from './DOMelems.js';
 
 export default function createTopicsList() {
     let allTopics = [];
 
-    channels.forEach(chan => {
+    channelsData.forEach(chan => {
         allTopics.push(...chan.topics);
     });
     
