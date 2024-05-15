@@ -90,6 +90,7 @@ main {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 
     & .channel {
+        text-overflow: ellipsis;
         display: grid;
         /* place-items: center; */
         align-items: center;

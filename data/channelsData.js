@@ -11,7 +11,15 @@ const channelsData = [
         link: 'https://www.youtube.com/@NetNinja/videos'
     },
     {
-        topics: ['all', 'design']
+        topics: ['all', 'coding'],
+        image: 'https://yt3.googleusercontent.com/ytc/AIdro_mLysKc36lc_FVk2j777olWvLOjgDz6NCNGdiQBnAKRENM=s160-c-k-c0x00ffffff-no-rj',
+        name: 'Traversy Media',
+        info: 'Features the best online web development and programming tutorials for all of the latest web technologies from the building blocks of HTML, CSS & JavaScript to frontend frameworks',
+        details: {
+            subs: '2.23M subs',
+            vids: '976 vids'
+        },
+        link: 'https://www.youtube.com/@TraversyMedia/videos'
     },
     {
         topics: ['all', 'entertainment']

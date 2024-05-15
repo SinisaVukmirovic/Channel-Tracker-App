@@ -10,7 +10,7 @@ export default function createTopicsList() {
     
     const uniqueTopics = [...new Set(allTopics)];
     
-    uniqueTopics.forEach((topic) => {
+    uniqueTopics.forEach(topic => {
         const liElem = document.createElement('li');
     
         liElem.setAttribute('tabindex', '0');
