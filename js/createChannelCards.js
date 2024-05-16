@@ -10,9 +10,8 @@ export default function createChannelCards() {
         
         channel.innerHTML = `
             <img src=${chan.image} alt="Channel Image">
-            <div data-tags class="tags-name">
-                <div class="tags">
-                    <span>coding</span>
+            <div class="tags-name">
+                <div data-tags class="tags">
                 </div>
                 <h4>${chan.name}</h4>
             </div>

@@ -5,8 +5,6 @@ export default function getCreatedDOMelems() {
     const topics = document.querySelectorAll('[data-topics] li');
     setAriaAttrOnClick(topics);
 
-    const channelTags = document.querySelectorAll('[data-channel] [data-tags]');
-    populateTagsInChannel(channelTags);
+    const channelTagsElem = document.querySelectorAll('[data-channel] [data-tags]');
+    populateTagsInChannel(channelTagsElem);
 }
-
-
