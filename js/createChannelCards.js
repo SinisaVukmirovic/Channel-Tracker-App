@@ -4,10 +4,13 @@ import { channelsWrapper } from './DOMelems.js';
 export default function createChannelCards() {
     channelsData.forEach(chan => {
         const channel = document.createElement('div');
+
+        channel.setAttribute('data-channel', '');
         channel.classList.add('channel');
+        
         channel.innerHTML = `
             <img src=${chan.image} alt="Channel Image">
-            <div class="tags-name">
+            <div data-tags class="tags-name">
                 <div class="tags">
                     <span>coding</span>
                 </div>
