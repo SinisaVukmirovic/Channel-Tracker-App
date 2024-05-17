@@ -23,6 +23,17 @@ const channelsData = [
     },
     {
         topics: ['all', 'coding'],
+        image: 'https://yt3.googleusercontent.com/ytc/AIdro_mQczyuvnXgEq8fApoOXpG2Yw_JKYqRA7kVOhNFuHLz9Vc=s160-c-k-c0x00ffffff-no-rj',
+        name: 'Kevin Powell',
+        info: "Helping you learn how to make the web, and make it look good while you're at it.I'll be bringing you How Tos and Tutorials, as well as simple tips and tricks, with a big focus on helping people see how wonderful CSS is!",
+        details: {
+            subs: '907K subs',
+            vids: '791 vids'
+        },
+        link: 'https://www.youtube.com/@KevinPowell/videos'
+    },
+    {
+        topics: ['all', 'coding'],
         image: 'https://yt3.googleusercontent.com/ytc/AIdro_mLysKc36lc_FVk2j777olWvLOjgDz6NCNGdiQBnAKRENM=s160-c-k-c0x00ffffff-no-rj',
         name: 'Traversy Media',
         info: 'Features the best online web development and programming tutorials for all of the latest web technologies from the building blocks of HTML, CSS & JavaScript to frontend frameworks',
