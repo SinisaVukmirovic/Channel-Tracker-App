@@ -61,7 +61,7 @@
         overflow: visible;
         width: 100%;
     
-        & .nav-links {
+        & .nav-items {
             display: grid;
             gap: .25rem;
             
@@ -119,7 +119,7 @@
             flex-grow: 1;
             display: flex;
             justify-content: flex-start;
-            font-size: 2.5rem;
+            font-size: 2.25rem;
         }
 
         & .search {

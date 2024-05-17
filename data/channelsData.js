@@ -42,6 +42,28 @@ const channelsData = [
             vids: '976 vids'
         },
         link: 'https://www.youtube.com/@TraversyMedia/videos'
+    },
+    {
+        topics: ['all', 'entertainment'],
+        image: 'https://yt3.googleusercontent.com/ytc/AIdro_nKja8YHk1IoiGA0BtmeMrh0--kYPPel9UwYhAjB7un4A=s160-c-k-c0x00ffffff-no-rj',
+        name: 'ArtosisCasts',
+        info: "Hi, I'm Dan 'Artosis' Stemkoski, the Professional Commentator and Analyst. On this channel, I'll be uploading a new Cast of a Pro BroodWar game every day! I hope you enjoy!",
+        details: {
+            subs: '38.1K subs',
+            vids: '1,116 vids'
+        },
+        link: 'https://www.youtube.com/@ArtosisCasts/videos'
+    },
+    {
+        topics: ['all', 'coding'],
+        image: 'https://yt3.googleusercontent.com/B2DWJIkC4ri5qb11aZGfUt6w6HKqZi4oUEli49C-1FLxxdsrM5YiajyTNKMSd9i-aRvoFUFqJTU=s160-c-k-c0x00ffffff-no-rj',
+        name: 'Coding in Public',
+        info: "My name is Chris Pennington. I’m a relative beginner to development and enjoy teaching what I’m learning to others. I mostly teach beginner to intermediate web dev on the channel through project and component builds.",
+        details: {
+            subs: '43.7K subs',
+            vids: '354 vids'
+        },
+        link: 'https://www.youtube.com/@CodinginPublic/videos'
     }
 ];
 

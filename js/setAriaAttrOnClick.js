@@ -9,5 +9,12 @@ export default function setAriaAttrOnClick(topics) {
             const selectedTopicText = topic.textContent;
             changeTitleText(selectedTopicText);
         });
+
+        // simulate mouse click on enter key press on focused elems
+        topic.addEventListener('keydown', (e) => {
+            if (e.keyCode === 13) {
+                e.target.click();
+            }
+        });
     });
 }
