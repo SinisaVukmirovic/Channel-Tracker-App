@@ -6,6 +6,17 @@ createTopicsList();
 createChannelCards();
 getCreatedDOMelems();
 
+const topicItems = document.querySelectorAll('[data-topics] li');
+topicItems.forEach(topic => {
+    topic.addEventListener('click', createChannelCards);
+});
+
+
+
+
+
+
+
 // import { channelsData } from '../data/channelsData.js';
 // import { channelsWrapper, searchInput } from './DOMelems.js';
 

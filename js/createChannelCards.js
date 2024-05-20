@@ -1,6 +1,8 @@
 import { channelsData } from '../data/channelsData.js';
 import { channelsWrapper } from './DOMelems.js';
 
+import populateTagsInChannel from './populateTagsInChannel.js';
+
 // export default function createChannelCards() {
 //     channelsData.forEach(chan => {
 //         const channel = document.createElement('div');
@@ -37,7 +39,8 @@ export default function createChannelCards() {
     const selectedTopic = ariaCurrent.textContent;
 
     const filteredChannelData = channelsData.filter(data => data.topics.includes(selectedTopic));
-    console.log(filteredChannelData)
+
+    channelsWrapper.innerHTML = '';
 
     filteredChannelData.forEach(chan => {
         const channel = document.createElement('div');
@@ -66,5 +69,7 @@ export default function createChannelCards() {
 
         channelsWrapper.append(channel);
     });
+
+    populateTagsInChannel(filteredChannelData);
 
 }

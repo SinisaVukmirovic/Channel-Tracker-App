@@ -1,10 +1,11 @@
-import { channelsData } from '../data/channelsData.js';
+export default function populateTagsInChannel(filteredChannelData) {
+    const channelTagsElem = document.querySelectorAll('[data-channel] [data-tags]');
 
-export default function populateTagsInChannel(channelTagsElem) {
     let index = 0;
 
     channelTagsElem.forEach(tagElem => {
-        const tags = channelsData[index].topics;
+        const tags = filteredChannelData[index].topics;
+        // console.log(tags)
         tags.forEach(tag => {
             if (tag.toLowerCase() == 'all') return;
             let tagTopic = document.createElement('span');

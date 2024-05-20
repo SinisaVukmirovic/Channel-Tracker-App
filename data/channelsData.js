@@ -64,6 +64,17 @@ const channelsData = [
             vids: '354 vids'
         },
         link: 'https://www.youtube.com/@CodinginPublic/videos'
+    },
+    {
+        topics: ['all', 'design'],
+        image: 'https://yt3.googleusercontent.com/XXiVIsiO_q2usUBXBYTey0WWxxWG00HYV94BwS2VL1GUyVJHWi668RBtABVDlgrM8sxLzDzz=s160-c-k-c0x00ffffff-no-rj',
+        name: 'Satori Graphics',
+        info: "It doesn't matter if you're a beginner designer or a more seasoned graphic designer, you can find something useful here for sure. There are awesome tutorials on graphic design theory, poster designing, logo designing, brand identity, and much much more.",
+        details: {
+            subs: '1.31M subs',
+            vids: '1,096 vids'
+        },
+        link: 'https://www.youtube.com/@SatoriGraphics/videos'
     }
 ];
 
