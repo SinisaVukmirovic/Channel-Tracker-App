@@ -38,4 +38,6 @@ export default function filterBySearchTerm(filteredChannelData) {
         
         populateTagsInChannel(searchedChannelName);
     });
+
+    searchInput.value = '';
 }

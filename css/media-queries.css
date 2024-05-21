@@ -69,7 +69,7 @@
                 font-size: 1.5rem;
                 text-align: right;
                 padding: .5rem 2.5rem .5rem 0;
-                cursor: pointer;
+                /* cursor: pointer; */
                 border-radius: 1rem;
             }
 
