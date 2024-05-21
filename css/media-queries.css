@@ -103,9 +103,6 @@
         }
     }
 
-    /* main {
-        padding-left: 3rem;
-    } */
     .title-search {
         margin-bottom: 2rem;
         display: flex;
@@ -132,5 +129,9 @@
                 font-size: 1.5rem;
             }
         }
+    }
+
+    p[data-warning] {
+        font-size: 4rem;
     }
 }

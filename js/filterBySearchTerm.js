@@ -37,6 +37,12 @@ export default function filterBySearchTerm(filteredChannelData) {
         });
         
         populateTagsInChannel(searchedChannelName);
+
+        if (searchedChannelName.length == 0) {
+            document.querySelector('[data-warning]').style.display = 'block';   
+        } else {
+            document.querySelector('[data-warning]').style.display = 'none';  
+        }
     });
 
     searchInput.value = '';

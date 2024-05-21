@@ -186,3 +186,8 @@ main {
     }
 }
 
+p[data-warning] {
+    display: none;
+    color: var(--theme-clr);
+    font-size: 2.5rem;
+}
