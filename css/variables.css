@@ -1,7 +1,7 @@
 :root {
     --theme-clr: crimson;
     --bg-clr: hsl(0, 0%, 12%);
-    --channel-card-bg: hsl(0, 0%, 16%);
+    --channel-card-bg: hsl(0, 0%, 14%);
     --text-clr: hsl(0, 0%, 93%);
     --light-text-clr: hsl(0, 0%, 70%);
 }

@@ -1,5 +1,6 @@
-import { channelsWrapper, searchInput } from "./DOMelems.js";
+import { channelsWrapper, searchInput, warningMsgElem } from "./DOMelems.js";
 import populateTagsInChannel from './populateTagsInChannel.js';
+import createChannelCardElem from './createChannelCardElem.js';
 
 export default function filterBySearchTerm(filteredChannelData) {
     searchInput.addEventListener('input', () => {
@@ -9,39 +10,15 @@ export default function filterBySearchTerm(filteredChannelData) {
         channelsWrapper.innerHTML = '';
 
         searchedChannelName.forEach(chan => {
-            const channel = document.createElement('div');
-
-            channel.setAttribute('data-channel', '');
-            channel.classList.add('channel');
-            
-            channel.innerHTML = `
-                <img src=${chan.image} alt="Channel Image">
-                <div class="tags-name">
-                    <div data-tags class="tags">
-                    </div>
-                    <h4>${chan.name}</h4>
-                </div>
-                <div class="info">
-                    <p>${chan.info}</p>
-                </div>
-                <div class="subs-link">
-                    <div class="details">
-                        <p>${chan.details.subs}</p>
-                        <p>${chan.details.vids}</p>
-                    </div>
-                    <a href=${chan.link} target="_blank">Visit Channel</a>
-                </div>
-            `;
-
-            channelsWrapper.append(channel);
+            createChannelCardElem(chan);            
         });
         
         populateTagsInChannel(searchedChannelName);
 
         if (searchedChannelName.length == 0) {
-            document.querySelector('[data-warning]').style.display = 'block';   
+            warningMsgElem.style.display = 'block';   
         } else {
-            document.querySelector('[data-warning]').style.display = 'none';  
+            warningMsgElem.style.display = 'none';
         }
     });
 
