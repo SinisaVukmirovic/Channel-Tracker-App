@@ -75,7 +75,106 @@ const channelsData = [
             vids: '1,096 vids'
         },
         link: 'https://www.youtube.com/@SatoriGraphics/videos'
-    }
+    },
+    {
+        topics: ['all', 'coding'],
+        image: 'https://yt3.googleusercontent.com/ytc/AIdro_nO3F7DfVXaf6wsHPS_hF327ggeWUCwZSELb5DCWBL1aw=s160-c-k-c0x00ffffff-no-rj',
+        name: 'Web Dev Simplified',
+        info: "Web Dev Simplified is all about teaching web development skills and techniques in an efficient and practical manner. Web Dev Simplified also deep dives into advanced topics using the latest best practices for you seasoned web developers.",
+        details: {
+            subs: '1.56M subs',
+            vids: '691 vids'
+        },
+        link: 'https://www.youtube.com/@WebDevSimplified/videos'
+    },
+    {
+        topics: ['all', 'coding', 'design'],
+        image: 'https://yt3.googleusercontent.com/ytc/AIdro_lGRc-05M2OoE1ejQdxeFhyP7OkJg9h4Y-7CK_5je3QqFI=s160-c-k-c0x00ffffff-no-rj',
+        name: 'freeCodeCamp.org',
+        info: "Learn to code for free.",
+        details: {
+            subs: '9.48M subs',
+            vids: '1,654 vids'
+        },
+        link: 'https://www.youtube.com/@freecodecamp/videos'
+    },
+    {
+        topics: ['all', 'coding'],
+        image: 'https://yt3.googleusercontent.com/ntXVpckFp6Qi7sAMKOnYSAY30_KDu13Z6xKJ8sEkYuA-naJ140Cx-BGoD3YvoAwTx0vr6oem=s160-c-k-c0x00ffffff-no-rj',
+        name: 'Steve Griffith - Prof3ssorSt3v3',
+        info: "The videos on this channel are largely about web design & development with a good dose of mobile development thrown in just for fun. I hope that these videos help people learn to love JavaScript as much as I do.",
+        details: {
+            subs: '100K subs',
+            vids: '928 vids'
+        },
+        link: 'https://www.youtube.com/@SteveGriffith-Prof3ssorSt3v3/videos'
+    },
+    {
+        topics: ['all', 'coding'],
+        image: 'https://yt3.googleusercontent.com/s5Eex4ZIqBSe2y2k5aidi71WGkfEJORkY-Hn2QDVMJxnkpRB5FdlOiHC9V1yyLuxSaCv5JCVYmM=s160-c-k-c0x00ffffff-no-rj',
+        name: 'dcode',
+        info: "High quality web development tutorials. On my channel you can find HTML, CSS & JavaScript tutorials, PHP tutorials, Node.js tutorials and Rust tutorials, as well as many other topics covered in web development. I also enjoy building JavaScript projects every now and then",
+        details: {
+            subs: '131K subs',
+            vids: '759 vids'
+        },
+        link: 'https://www.youtube.com/@dcode-software/videos'
+    },
+    {
+        topics: ['all', 'food & drinks', 'entertainment'],
+        image: 'https://yt3.googleusercontent.com/bFpwiiOB_NLCVsIcVQ9UcwBjb1RzipnMmtNfLSWpeIaHboyGkBCq4KBitmovRbStk9WvIWIZOyo=s160-c-k-c0x00ffffff-no-rj',
+        name: 'Gordon Ramsay',
+        info: "The home of Gordon Ramsay on YouTube. Recipe tutorials, tips, techniques and the best bits from the archives. New uploads every week - subscribe now to stay up to date!",
+        details: {
+            subs: '20.7M subs',
+            vids: '1,715 vids'
+        },
+        link: 'https://www.youtube.com/@gordonramsay/videos'
+    },
+    {
+        topics: ['all', 'calisthenics'],
+        image: 'https://yt3.googleusercontent.com/a1QUN5Q1xwUSn0-SbpYTLT2F8FGVwM9AKmqdMSZR_FSRAhrQJMPjLOt-BnHVk9Us2W0y5A6o=s160-c-k-c0x00ffffff-no-rj',
+        name: 'THENX',
+        info: "ELITE FITNESS TRAINING BY CHRIS HERIA",
+        details: {
+            subs: '7.77M subs',
+            vids: '423 vids'
+        },
+        link: 'https://www.youtube.com/@OFFICIALTHENXSTUDIOS/videos'
+    },
+    {
+        topics: ['all', 'food & drinks'],
+        image: 'https://yt3.googleusercontent.com/ytc/AIdro_mEq4ODx1eVQ3GUtCUOC6GG-cwZ3OgiZPy-R3HILvg_IA=s160-c-k-c0x00ffffff-no-rj',
+        name: 'James Hoffmann',
+        info: "Hi! My name is James, and I make videos about anything and everything to do with coffee, occasionally food and sometimes business/entrepreneurship. I create how-tos, guides, reviews, vlogs, video essays and mini-documentary films.",
+        details: {
+            subs: '2.09M subs',
+            vids: '356 vids'
+        },
+        link: 'https://www.youtube.com/@jameshoffmann/videos'
+    },
+    {
+        topics: ['all', 'calisthenics'],
+        image: 'https://yt3.googleusercontent.com/ytc/AIdro_mG9pxSeROwFMpRXTUY4VDG8fi2Q_0tZcru_MY4DDxuWOk=s160-c-k-c0x00ffffff-no-rj',
+        name: 'CHRIS HERIA',
+        info: "WWW.CHRISHERIA.COM",
+        details: {
+            subs: '5M subs',
+            vids: '317 vids'
+        },
+        link: 'https://www.youtube.com/@CHRISHERIA/videos'
+    },    
+    {
+        topics: ['all', 'entertainment'],
+        image: 'https://yt3.googleusercontent.com/ttCAu3eoIgEnby7JdfuOQt-xrXpa7x3-vKG2n1pIew6VhAOlHBa01LRQz0-_v5LYdBR0xg3CPS0=s160-c-k-c0x00ffffff-no-rj',
+        name: 'ANATOLY',
+        info: "Be Happy Stay Strong",
+        details: {
+            subs: '4.89M subs',
+            vids: '105 vids'
+        },
+        link: 'https://www.youtube.com/@vladimirfitness/videos'
+    },
 ];
 
 export { channelsData };
