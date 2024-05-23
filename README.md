@@ -1,7 +1,7 @@
 ## Channel Tracker App
 ___
 
-#### Create Channel Tracker App of your favourite channels with filter by topic and search functionality
+#### Channel Tracker App of your favourite channels with filter by topic and search functionality
 
 # **[Live DEMO](https://duckduckgo.com)**
 
