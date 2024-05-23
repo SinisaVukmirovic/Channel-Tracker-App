@@ -4,7 +4,7 @@ import filterBySearchTerm from './filterBySearchTerm.js';
 import populateTagsInChannel from './populateTagsInChannel.js';
 import createChannelCardElem from './createChannelCardElem.js';
 
-export default function createChannelCards() {
+export default function populateChannelCards() {
     const ariaCurrent = document.querySelector('[aria-current]');
     const selectedTopic = ariaCurrent.textContent;
 

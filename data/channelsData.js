@@ -78,6 +78,17 @@ const channelsData = [
     },
     {
         topics: ['all', 'coding'],
+        image: 'https://yt3.googleusercontent.com/0eIqxAMRNI9gnG0HXSBnpFCmV5E5UjsxzZ3HtvG9Q9PD8QxnZRE9QWvuoiDS8HFEgeFd1Hc4=s160-c-k-c0x00ffffff-no-rj',
+        name: 'Dave Gray',
+        info: "Web Development tutorials with full courses on HTML, CSS, JavaScript, React, Node.js and more! Keep striving for progress over perfection. And a little progress every day goes a very long way.",
+        details: {
+            subs: '306K subs',
+            vids: '416 vids'
+        },
+        link: 'https://www.youtube.com/@DaveGrayTeachesCode/videos'
+    },
+    {
+        topics: ['all', 'coding'],
         image: 'https://yt3.googleusercontent.com/ytc/AIdro_nO3F7DfVXaf6wsHPS_hF327ggeWUCwZSELb5DCWBL1aw=s160-c-k-c0x00ffffff-no-rj',
         name: 'Web Dev Simplified',
         info: "Web Dev Simplified is all about teaching web development skills and techniques in an efficient and practical manner. Web Dev Simplified also deep dives into advanced topics using the latest best practices for you seasoned web developers.",
@@ -121,7 +132,7 @@ const channelsData = [
         link: 'https://www.youtube.com/@dcode-software/videos'
     },
     {
-        topics: ['all', 'food & drinks', 'entertainment'],
+        topics: ['all', 'food&drinks', 'entertainment'],
         image: 'https://yt3.googleusercontent.com/bFpwiiOB_NLCVsIcVQ9UcwBjb1RzipnMmtNfLSWpeIaHboyGkBCq4KBitmovRbStk9WvIWIZOyo=s160-c-k-c0x00ffffff-no-rj',
         name: 'Gordon Ramsay',
         info: "The home of Gordon Ramsay on YouTube. Recipe tutorials, tips, techniques and the best bits from the archives. New uploads every week - subscribe now to stay up to date!",
@@ -143,7 +154,7 @@ const channelsData = [
         link: 'https://www.youtube.com/@OFFICIALTHENXSTUDIOS/videos'
     },
     {
-        topics: ['all', 'food & drinks'],
+        topics: ['all', 'food&drinks'],
         image: 'https://yt3.googleusercontent.com/ytc/AIdro_mEq4ODx1eVQ3GUtCUOC6GG-cwZ3OgiZPy-R3HILvg_IA=s160-c-k-c0x00ffffff-no-rj',
         name: 'James Hoffmann',
         info: "Hi! My name is James, and I make videos about anything and everything to do with coffee, occasionally food and sometimes business/entrepreneurship. I create how-tos, guides, reviews, vlogs, video essays and mini-documentary films.",
