@@ -3,7 +3,7 @@ ___
 
 #### Channel Tracker App of your favourite channels with filter by topic and search functionality
 
-# **[Live DEMO](https://duckduckgo.com)**
+# **[Live DEMO](https://sinisavukmirovic.github.io/Channel-Tracker-App/)**
 
 ![DEMO](./screenshot.png)
 
