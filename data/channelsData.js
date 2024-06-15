@@ -186,6 +186,28 @@ const channelsData = [
         },
         link: 'https://www.youtube.com/@vladimirfitness/videos'
     },
+    {
+        topics: ['all', 'design'],
+        image: 'https://yt3.googleusercontent.com/_iWVqwuOQnJO0CkHJIRRnm7FvEC7BVC2ZsPuTRYT28T5SH4kLgMcbWocY2aHcz_68OBYKywLrg=s160-c-k-c0x00ffffff-no-rj',
+        name: 'Malewicz',
+        info: "Hello! I want to redefine and disrupt education. This channel is about design, building companies and having a happy life in the process. Sharing my over 23 years of experience with you.",
+        details: {
+            subs: '143K subs',
+            vids: '392 vids'
+        },
+        link: 'https://www.youtube.com/@MalewiczHype/videos'
+    },
+    {
+        topics: ['all', 'entertainment', 'food&drinks'],
+        image: 'https://i.ytimg.com/vi/zu-OuG13UO4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&rs=AOn4CLCGR__PbNfPhJkYT2EoYFxn9q74Yw',
+        name: 'Two Greedy Italians',
+        info: "Chefs Antonio Carluccio and Gennaro Contaldo tour Italy to discover how their home country's culture has changed since they left more than 40 years ago, and how this has affected the way the population eats.",
+        details: {
+            subs: '9.08K subs',
+            vids: '10 vids'
+        },
+        link: 'https://www.youtube.com/playlist?list=PLAUDZlFZH83vQ_rBvO7ODNIe5vQviadWI'
+    }
 ];
 
 export { channelsData };

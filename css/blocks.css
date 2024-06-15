@@ -101,6 +101,8 @@ main {
         place-items: start;
         align-items: center;
         grid-template-columns: 1fr 4fr;
+        grid-template-rows: subgrid;
+        grid-row: span 3;
         gap: .75rem;
         padding: 1rem;
         border-radius: .5rem;
@@ -108,18 +110,22 @@ main {
         box-shadow: 0 0 6px 2px hsl(0, 0%, 7%);
     
         & img {
-            border-radius: 100%;
             grid-column: 1 / 2;
+            border-radius: 100%;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
         }
     
         & .tags-name {
             grid-column: 2 / 3;
             display: flex;
             flex-direction: column;
-            justify-content: space-evenly;
+            /* justify-content: space-evenly; */
+            justify-content: space-between;
             height: 100%;
             width: 100%;
-            padding-inline-start: 1rem;
+            /* padding-inline-start: 1rem; */
+            padding: 0 0 .75rem 1rem;
     
             & .tags {
                 margin-left: auto;
@@ -140,6 +146,8 @@ main {
     
             & h4 {
                 font-size: 2rem;
+                line-height: 1.2;
+                /* padding-bottom: .5rem; */
             }
     
         }
