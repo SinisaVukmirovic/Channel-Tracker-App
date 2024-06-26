@@ -5,7 +5,8 @@ export default function createTopicsList() {
     let allTopics = [];
 
     channelsData.forEach(chan => {
-        allTopics.push(...chan.topics);
+        // allTopics.push(...chan.topics);
+        allTopics = [...allTopics, ...chan.topics];
     });
     
     const uniqueTopics = [...new Set(allTopics)];
