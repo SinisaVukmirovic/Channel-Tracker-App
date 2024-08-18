@@ -67,7 +67,7 @@ const channelsData = [
     },
     {
         topics: ['all', 'design'],
-        image: 'https://yt3.googleusercontent.com/XXiVIsiO_q2usUBXBYTey0WWxxWG00HYV94BwS2VL1GUyVJHWi668RBtABVDlgrM8sxLzDzz=s160-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/eZJJpjNDqRp-y_l3gniUg2Osgx-WJ74K9Ljdw5CDG5GX9Xh12JozYSv-Gpv5mYbRBETyvHzytw=s160-c-k-c0x00ffffff-no-rj',
         name: 'Satori Graphics',
         info: "It doesn't matter if you're a beginner designer or a more seasoned graphic designer, you can find something useful here for sure. There are awesome tutorials on graphic design theory, poster designing, logo designing, brand identity, and much much more.",
         details: {
@@ -86,6 +86,17 @@ const channelsData = [
             vids: '416 vids'
         },
         link: 'https://www.youtube.com/@DaveGrayTeachesCode/videos'
+    },
+    {
+        topics: ['all', 'coding'],
+        image: 'https://yt3.googleusercontent.com/LnD0yL5NAb8yvZu2d25qLZ-oAehUISz9tfe3aN36syGqTKbs4irbPeVUJfNlmVFRzel7KHV3-uo=s160-c-k-c0x00ffffff-no-rj',
+        name: 'Lun Dev Code',
+        info: "HTML CSS Javascript code tutorial, learning HTML, learning CSS, learning Javascript, get code free HTML CSS JAVASCRIPT, animation code. reponsive code. Here we share HTML CSS Javascript code completely free. The videos focus on creating animation and responsive effects for the website.",
+        details: {
+            subs: '85.6K subs',
+            vids: '197 vids'
+        },
+        link: 'https://www.youtube.com/@lundeveloper/videos'
     },
     {
         topics: ['all', 'coding'],
