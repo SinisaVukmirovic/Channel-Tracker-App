@@ -72,6 +72,7 @@
     
                 content: '';
                 position: absolute;
+                z-index: -1;
                 width: var(--corner-radius);
                 height: var(--corner-radius);
                 border-radius: 100%;
