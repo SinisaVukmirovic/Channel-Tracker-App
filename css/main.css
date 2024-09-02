@@ -33,3 +33,10 @@ body {
 -ms-overflow-style: none;  /* IE and Edge */
 scrollbar-width: none;  /* Firefox */
 }
+
+/* /////////////////////////////////////// */
+/* basic view transitions */
+::view-transition-group(root) {
+    animation-duration: .2s;
+    mix-blend-mode: none;
+}

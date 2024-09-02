@@ -12,11 +12,14 @@ export default function populateChannelCards() {
 
     channelsWrapper.innerHTML = '';
 
-    filteredChannelData.forEach(chan => {
-        createChannelCardElem(chan);
-    });
+    // view transitions
+    document.startViewTransition(() => {
+        filteredChannelData.forEach(chan => {
+            createChannelCardElem(chan);
+        });
 
-    populateTagsInChannel(filteredChannelData);
+        populateTagsInChannel(filteredChannelData);
+    });
 
     filterBySearchTerm(filteredChannelData);
 }
