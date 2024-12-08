@@ -67,7 +67,7 @@ const channelsData = [
     },
     {
         topics: ['all', 'design'],
-        image: 'https://yt3.googleusercontent.com/eZJJpjNDqRp-y_l3gniUg2Osgx-WJ74K9Ljdw5CDG5GX9Xh12JozYSv-Gpv5mYbRBETyvHzytw=s160-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/BogFk7DBtN-xg3R2qP3WZfWe0R0nofZp4UkFt7RGAeOWwwM6Lo6nAEVssGRT6nVEF6mvxRPhTg=s160-c-k-c0x00ffffff-no-rj',
         name: 'Satori Graphics',
         info: "It doesn't matter if you're a beginner designer or a more seasoned graphic designer, you can find something useful here for sure. There are awesome tutorials on graphic design theory, poster designing, logo designing, brand identity, and much much more.",
         details: {
@@ -199,7 +199,7 @@ const channelsData = [
     },
     {
         topics: ['all', 'design'],
-        image: 'https://yt3.googleusercontent.com/_iWVqwuOQnJO0CkHJIRRnm7FvEC7BVC2ZsPuTRYT28T5SH4kLgMcbWocY2aHcz_68OBYKywLrg=s160-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/MEPFfcObRxkXCPyCxUlEMmzywxKl4n44VY8U4kCRUezo9SFsZXVnz3lfSmccttQi6kDdsqc47A=s160-c-k-c0x00ffffff-no-rj',
         name: 'Malewicz',
         info: "Hello! I want to redefine and disrupt education. This channel is about design, building companies and having a happy life in the process. Sharing my over 23 years of experience with you.",
         details: {
