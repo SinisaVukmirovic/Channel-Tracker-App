@@ -155,7 +155,7 @@ const channelsData = [
     },
     {
         topics: ['all', 'coding'],
-        image: 'https://yt3.ggpht.com/6sy2xPMxXUUk3yXvpCoZrziuFs8sRD75NRZn-zSxkNHcbwpDCJ4wOKmw-WyEoP3GeIVWaTNzOg=s48-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/6sy2xPMxXUUk3yXvpCoZrziuFs8sRD75NRZn-zSxkNHcbwpDCJ4wOKmw-WyEoP3GeIVWaTNzOg=s160-c-k-c0x00ffffff-no-rj',
         name: 'Joy of Code',
         info: "Sharing the joy of code.",
         details: {
