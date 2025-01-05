@@ -143,6 +143,28 @@ const channelsData = [
         link: 'https://www.youtube.com/@dcode-software/videos'
     },
     {
+        topics: ['all', 'coding'],
+        image: 'https://yt3.googleusercontent.com/tXy78yx8cXjinTRYbX5Bl6ZK4aPIlJQvExUs0DClBDqe4eNSfnTJfZz375oecWJbRl10jKnGNw=s160-c-k-c0x00ffffff-no-rj',
+        name: 'Dmitry Mayorov',
+        info: "Easy to follow web tutorials, and more!",
+        details: {
+            subs: '2.3K subs',
+            vids: '20 vids'
+        },
+        link: 'https://www.youtube.com/@dmtrmrv/videos'
+    },
+    {
+        topics: ['all', 'coding'],
+        image: 'https://yt3.ggpht.com/6sy2xPMxXUUk3yXvpCoZrziuFs8sRD75NRZn-zSxkNHcbwpDCJ4wOKmw-WyEoP3GeIVWaTNzOg=s48-c-k-c0x00ffffff-no-rj',
+        name: 'Joy of Code',
+        info: "Sharing the joy of code.",
+        details: {
+            subs: '32.7K subs',
+            vids: '172 vids'
+        },
+        link: 'https://www.youtube.com/@JoyofCodeDev/videos'
+    },
+    {
         topics: ['all', 'food&drinks', 'entertainment'],
         image: 'https://yt3.googleusercontent.com/bFpwiiOB_NLCVsIcVQ9UcwBjb1RzipnMmtNfLSWpeIaHboyGkBCq4KBitmovRbStk9WvIWIZOyo=s160-c-k-c0x00ffffff-no-rj',
         name: 'Gordon Ramsay',
@@ -218,17 +240,6 @@ const channelsData = [
             vids: '10 vids'
         },
         link: 'https://www.youtube.com/playlist?list=PLAUDZlFZH83vQ_rBvO7ODNIe5vQviadWI'
-    },
-    {
-        topics: ['all', 'coding'],
-        image: 'https://yt3.googleusercontent.com/tXy78yx8cXjinTRYbX5Bl6ZK4aPIlJQvExUs0DClBDqe4eNSfnTJfZz375oecWJbRl10jKnGNw=s160-c-k-c0x00ffffff-no-rj',
-        name: 'Dmitry Mayorov',
-        info: "Easy to follow web tutorials, and more!",
-        details: {
-            subs: '2.3K subs',
-            vids: '20 vids'
-        },
-        link: 'https://www.youtube.com/@dmtrmrv/videos'
     }
 ];
 
