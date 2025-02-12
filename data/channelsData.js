@@ -56,7 +56,7 @@ const channelsData = [
     },
     {
         topics: ['all', 'coding'],
-        image: 'https://yt3.googleusercontent.com/B2DWJIkC4ri5qb11aZGfUt6w6HKqZi4oUEli49C-1FLxxdsrM5YiajyTNKMSd9i-aRvoFUFqJTU=s160-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/LsV7kznIwsOqK3p5TyDJvyrJujx1a6d0V5K8nc_U5C7sx9F5idcsdQEgNRypxPZmhtsAxdLztSU=s160-c-k-c0x00ffffff-no-rj',
         name: 'Coding in Public',
         info: "My name is Chris Pennington. I’m a relative beginner to development and enjoy teaching what I’m learning to others. I mostly teach beginner to intermediate web dev on the channel through project and component builds.",
         details: {
@@ -122,7 +122,7 @@ const channelsData = [
     },
     {
         topics: ['all', 'coding'],
-        image: 'https://yt3.googleusercontent.com/ntXVpckFp6Qi7sAMKOnYSAY30_KDu13Z6xKJ8sEkYuA-naJ140Cx-BGoD3YvoAwTx0vr6oem=s160-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/ir8U3eSuOwEa-9d4tE3l-61u4pttVRz9Wbm-dJ3kw9ivOUVz6rylK7IFgwOFoTsPVlzJkTTUi1A=s160-c-k-c0x00ffffff-no-rj',
         name: 'Steve Griffith - Prof3ssorSt3v3',
         info: "The videos on this channel are largely about web design & development with a good dose of mobile development thrown in just for fun. I hope that these videos help people learn to love JavaScript as much as I do.",
         details: {
@@ -144,7 +144,7 @@ const channelsData = [
     },
     {
         topics: ['all', 'coding'],
-        image: 'https://yt3.googleusercontent.com/tXy78yx8cXjinTRYbX5Bl6ZK4aPIlJQvExUs0DClBDqe4eNSfnTJfZz375oecWJbRl10jKnGNw=s160-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/lFaxJMueU41ahLoOf4eJClqPQ9VqUvb7lwEJuf1MOrKMWZmw-P2VI9wLTo2IIDbR4RcidDwNmQ=s160-c-k-c0x00ffffff-no-rj',
         name: 'Dmitry Mayorov',
         info: "Easy to follow web tutorials, and more!",
         details: {
@@ -177,7 +177,7 @@ const channelsData = [
     },
     {
         topics: ['all', 'calisthenics'],
-        image: 'https://yt3.googleusercontent.com/a1QUN5Q1xwUSn0-SbpYTLT2F8FGVwM9AKmqdMSZR_FSRAhrQJMPjLOt-BnHVk9Us2W0y5A6o=s160-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/qXC3TS-oiAMDgPuE3eucuP8BRGkmY-BCeO7wMAkXpU6ouMlFZ61CqLTmcUvFwgFvfeVzBaPN=s160-c-k-c0x00ffffff-no-rj',
         name: 'THENX',
         info: "ELITE FITNESS TRAINING BY CHRIS HERIA",
         details: {
@@ -210,7 +210,7 @@ const channelsData = [
     },    
     {
         topics: ['all', 'entertainment'],
-        image: 'https://yt3.googleusercontent.com/ttCAu3eoIgEnby7JdfuOQt-xrXpa7x3-vKG2n1pIew6VhAOlHBa01LRQz0-_v5LYdBR0xg3CPS0=s160-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/08HfDUT54rSPU2tHruPVN45roDrYEmLl9rurnd4Ta6gu7Wbtu_jed9c3JVQLGUx28UIW_cR3=s160-c-k-c0x00ffffff-no-rj',
         name: 'ANATOLY',
         info: "Be Happy Stay Strong",
         details: {
@@ -221,7 +221,7 @@ const channelsData = [
     },
     {
         topics: ['all', 'design'],
-        image: 'https://yt3.googleusercontent.com/MEPFfcObRxkXCPyCxUlEMmzywxKl4n44VY8U4kCRUezo9SFsZXVnz3lfSmccttQi6kDdsqc47A=s160-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/AIyllFLfT0MAYlBG_xeXJR-pC57rSNG2zKYs0WWN0UlvdrtpXNxRnJgTxgzRszfbM2AYHyr7iFM=s160-c-k-c0x00ffffff-no-rj',
         name: 'Malewicz',
         info: "Hello! I want to redefine and disrupt education. This channel is about design, building companies and having a happy life in the process. Sharing my over 23 years of experience with you.",
         details: {
