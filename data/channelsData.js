@@ -67,7 +67,7 @@ const channelsData = [
     },
     {
         topics: ['all', 'design'],
-        image: 'https://yt3.googleusercontent.com/BogFk7DBtN-xg3R2qP3WZfWe0R0nofZp4UkFt7RGAeOWwwM6Lo6nAEVssGRT6nVEF6mvxRPhTg=s160-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/JDUrBFsHhd_ZpnefcsDKu-7uPLGt058xQ4qRTZUTmCcDsvKMvolWCLoqq_VRWkKID8pgujAs=s160-c-k-c0x00ffffff-no-rj',
         name: 'Satori Graphics',
         info: "It doesn't matter if you're a beginner designer or a more seasoned graphic designer, you can find something useful here for sure. There are awesome tutorials on graphic design theory, poster designing, logo designing, brand identity, and much much more.",
         details: {
@@ -78,7 +78,7 @@ const channelsData = [
     },
     {
         topics: ['all', 'coding'],
-        image: 'https://yt3.googleusercontent.com/0eIqxAMRNI9gnG0HXSBnpFCmV5E5UjsxzZ3HtvG9Q9PD8QxnZRE9QWvuoiDS8HFEgeFd1Hc4=s160-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/nv365KiAJyURPEBZyCh0SV3hSBnZXbvVXrzRwcNDfgUpXPn9-3_4PY0SkQrAJWnzQOxKqfUtrQ=s160-c-k-c0x00ffffff-no-rj',
         name: 'Dave Gray',
         info: "Web Development tutorials with full courses on HTML, CSS, JavaScript, React, Node.js and more! Keep striving for progress over perfection. And a little progress every day goes a very long way.",
         details: {
@@ -89,7 +89,7 @@ const channelsData = [
     },
     {
         topics: ['all', 'coding'],
-        image: 'https://yt3.googleusercontent.com/LnD0yL5NAb8yvZu2d25qLZ-oAehUISz9tfe3aN36syGqTKbs4irbPeVUJfNlmVFRzel7KHV3-uo=s160-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/CPh-Deak3Jjkxbro3DeDmL4PuwUUsiwrqIdC5ufMsvITgEVFgjqCL8xlcD8c9E9FyDXNBQ56kw=s160-c-k-c0x00ffffff-no-rj',
         name: 'Lun Dev Code',
         info: "HTML CSS Javascript code tutorial, learning HTML, learning CSS, learning Javascript, get code free HTML CSS JAVASCRIPT, animation code. reponsive code. Here we share HTML CSS Javascript code completely free. The videos focus on creating animation and responsive effects for the website.",
         details: {
@@ -133,7 +133,7 @@ const channelsData = [
     },
     {
         topics: ['all', 'coding'],
-        image: 'https://yt3.googleusercontent.com/s5Eex4ZIqBSe2y2k5aidi71WGkfEJORkY-Hn2QDVMJxnkpRB5FdlOiHC9V1yyLuxSaCv5JCVYmM=s160-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/G-iVDe5Z7UAblP36geH2sP0D9Zs-NGIHTYcmVj4GR7IZvOeG5c3nTIlS56y2ZxJZXFqD4ZWOpA=s160-c-k-c0x00ffffff-no-rj',
         name: 'dcode',
         info: "High quality web development tutorials. On my channel you can find HTML, CSS & JavaScript tutorials, PHP tutorials, Node.js tutorials and Rust tutorials, as well as many other topics covered in web development. I also enjoy building JavaScript projects every now and then",
         details: {
@@ -166,7 +166,7 @@ const channelsData = [
     },
     {
         topics: ['all', 'food&drinks', 'entertainment'],
-        image: 'https://yt3.googleusercontent.com/bFpwiiOB_NLCVsIcVQ9UcwBjb1RzipnMmtNfLSWpeIaHboyGkBCq4KBitmovRbStk9WvIWIZOyo=s160-c-k-c0x00ffffff-no-rj',
+        image: 'https://yt3.googleusercontent.com/iu8M-gugkNvz-lHxC1sMEfAlL7ONWbP91c5SM9bb98oCJAcYUl0HIAMZFFR2Dd-soGag1Y1y8A=s160-c-k-c0x00ffffff-no-rj',
         name: 'Gordon Ramsay',
         info: "The home of Gordon Ramsay on YouTube. Recipe tutorials, tips, techniques and the best bits from the archives. New uploads every week - subscribe now to stay up to date!",
         details: {
