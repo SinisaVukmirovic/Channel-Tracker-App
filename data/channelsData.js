@@ -78,17 +78,6 @@ const channelsData = [
     },
     {
         topics: ['all', 'coding'],
-        image: 'https://yt3.googleusercontent.com/nv365KiAJyURPEBZyCh0SV3hSBnZXbvVXrzRwcNDfgUpXPn9-3_4PY0SkQrAJWnzQOxKqfUtrQ=s160-c-k-c0x00ffffff-no-rj',
-        name: 'Dave Gray',
-        info: "Web Development tutorials with full courses on HTML, CSS, JavaScript, React, Node.js and more! Keep striving for progress over perfection. And a little progress every day goes a very long way.",
-        details: {
-            subs: '306K subs',
-            vids: '416 vids'
-        },
-        link: 'https://www.youtube.com/@DaveGrayTeachesCode/videos'
-    },
-    {
-        topics: ['all', 'coding'],
         image: 'https://yt3.googleusercontent.com/CPh-Deak3Jjkxbro3DeDmL4PuwUUsiwrqIdC5ufMsvITgEVFgjqCL8xlcD8c9E9FyDXNBQ56kw=s160-c-k-c0x00ffffff-no-rj',
         name: 'Lun Dev Code',
         info: "HTML CSS Javascript code tutorial, learning HTML, learning CSS, learning Javascript, get code free HTML CSS JAVASCRIPT, animation code. reponsive code. Here we share HTML CSS Javascript code completely free. The videos focus on creating animation and responsive effects for the website.",
@@ -110,6 +99,28 @@ const channelsData = [
         link: 'https://www.youtube.com/@WebDevSimplified/videos'
     },
     {
+        topics: ['all', 'coding'],
+        image: 'https://yt3.googleusercontent.com/4mKjeROH4uyWAj0gYTc1sBvrFBwDFmRFyxuqCsa-O3AMYyu4hW70IsAKF8c2l_6M3l1j2hmd0Q=s160-c-k-c0x00ffffff-no-rj',
+        name: 'Optimistic Web',
+        info: "Welcome to Optimistic Web, your ultimate destination for all things web design and development! Whether you're just starting or looking to enhance your skills in the realm of pixels and code, you've come to the right place. Our easy-to-follow tutorials cover HTML, CSS, JavaScript.",
+        details: {
+            subs: '22.4K subs',
+            vids: '109 vids'
+        },
+        link: 'https://www.youtube.com/@OptimisticWeb/videos'
+    },
+    {
+        topics: ['all', 'design', 'coding'],
+        image: 'https://yt3.googleusercontent.com/IrLMXJ00GN-Vn_JY0I4ejJGxufqKMtRgaP6xEPJGngxj3qzHJnfq3SeYeO0vMU6C7OsX2x2Qnw=s160-c-k-c0x00ffffff-no-rj',
+        name: 'Sajid',
+        info: "I like cats. I like memes. I love cat memes",
+        details: {
+            subs: '119K subs',
+            vids: '18 vids'
+        },
+        link: 'https://www.youtube.com/@whosajid/videos'
+    },
+    {
         topics: ['all', 'coding', 'design'],
         image: 'https://yt3.googleusercontent.com/ytc/AIdro_lGRc-05M2OoE1ejQdxeFhyP7OkJg9h4Y-7CK_5je3QqFI=s160-c-k-c0x00ffffff-no-rj',
         name: 'freeCodeCamp.org',
@@ -119,6 +130,17 @@ const channelsData = [
             vids: '1,654 vids'
         },
         link: 'https://www.youtube.com/@freecodecamp/videos'
+    },
+     {
+        topics: ['all', 'coding'],
+        image: 'https://yt3.googleusercontent.com/nv365KiAJyURPEBZyCh0SV3hSBnZXbvVXrzRwcNDfgUpXPn9-3_4PY0SkQrAJWnzQOxKqfUtrQ=s160-c-k-c0x00ffffff-no-rj',
+        name: 'Dave Gray',
+        info: "Web Development tutorials with full courses on HTML, CSS, JavaScript, React, Node.js and more! Keep striving for progress over perfection. And a little progress every day goes a very long way.",
+        details: {
+            subs: '306K subs',
+            vids: '416 vids'
+        },
+        link: 'https://www.youtube.com/@DaveGrayTeachesCode/videos'
     },
     {
         topics: ['all', 'coding'],
