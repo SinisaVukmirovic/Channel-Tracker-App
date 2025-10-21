@@ -99,6 +99,17 @@ const channelsData = [
         link: 'https://www.youtube.com/@WebDevSimplified/videos'
     },
     {
+        topics: ['all', 'design'],
+        image: 'https://yt3.googleusercontent.com/CMKCx9ZszzUgwHK810j2CkY4bVHnUMsYi-IqsOnO69z03QCi77GskfwF08fbGiYsOeZc-WxcEA=s160-c-k-c0x00ffffff-no-rj',
+        name: 'Will Paterson',
+        info: "Hi, I’m Will Paterson and I’m a Graphic Designer and Content Creator who specialises in Logo Design, Hand Lettering and Brand Identity. I have worked with well-known brands such as Adobe, Instagram and Skillshare and here is where I share some of my knowledge and experience to help you level up your design skills!",
+        details: {
+            subs: '968K subs',
+            vids: '977 vids'
+        },
+        link: 'https://www.youtube.com/@willpatersondesign/videos'
+    },
+    {
         topics: ['all', 'coding'],
         image: 'https://yt3.googleusercontent.com/4mKjeROH4uyWAj0gYTc1sBvrFBwDFmRFyxuqCsa-O3AMYyu4hW70IsAKF8c2l_6M3l1j2hmd0Q=s160-c-k-c0x00ffffff-no-rj',
         name: 'Optimistic Web',
