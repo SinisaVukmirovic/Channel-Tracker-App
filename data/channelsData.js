@@ -88,6 +88,17 @@ const channelsData = [
         link: 'https://www.youtube.com/@lundeveloper/videos'
     },
     {
+        topics: ['all', 'design'],
+        image: 'https://yt3.googleusercontent.com/TTE9IVR1Wjzbak4L7Ax2WXBRQTmh-xpThYMxDuJ1aBU5H1a7wnsDBFuGkNhBOY53J2MXa6LSIg=s160-c-k-c0x00ffffff-no-rj',
+        name: 'DesignSpo',
+        info: "DesignSpo is a community of designers dedicated to building a world of beauty. Every member of our community is committed to raising their standards and rising to the level of their potential.",
+        details: {
+            subs: '50.1K subs',
+            vids: '18 vids'
+        },
+        link: 'https://www.youtube.com/@DesignSpo/videos'
+    },
+    {
         topics: ['all', 'coding'],
         image: 'https://yt3.googleusercontent.com/ytc/AIdro_nO3F7DfVXaf6wsHPS_hF327ggeWUCwZSELb5DCWBL1aw=s160-c-k-c0x00ffffff-no-rj',
         name: 'Web Dev Simplified',
