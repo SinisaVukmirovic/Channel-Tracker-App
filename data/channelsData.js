@@ -89,6 +89,17 @@ const channelsData = [
     },
     {
         topics: ['all', 'design'],
+        image: 'https://yt3.googleusercontent.com/D-wuZT2I_1Y_DKzP6pg-jZIJwfiBanfX1YN7iIvk_u6thQT2bH7jO7tQor6PvoFMp_q7MeW4vg=s160-c-k-c0x00ffffff-no-rj',
+        name: 'Flux Academy',
+        info: "Learn to be a more successful and profitable web designer: master the latest trends, tools, and technologies, and make it easy to get and retain high-value dream clients. Whether you're starting from zero, or already running a successful web design studio, we'll help you take your design skills and your business to the next level.",
+        details: {
+            subs: '1.04M subs',
+            vids: '2,100 vids'
+        },
+        link: 'https://www.youtube.com/@FluxAcademy/videos'
+    },
+    {
+        topics: ['all', 'design'],
         image: 'https://yt3.googleusercontent.com/TTE9IVR1Wjzbak4L7Ax2WXBRQTmh-xpThYMxDuJ1aBU5H1a7wnsDBFuGkNhBOY53J2MXa6LSIg=s160-c-k-c0x00ffffff-no-rj',
         name: 'DesignSpo',
         info: "DesignSpo is a community of designers dedicated to building a world of beauty. Every member of our community is committed to raising their standards and rising to the level of their potential.",
